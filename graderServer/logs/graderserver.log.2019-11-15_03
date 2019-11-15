@@ -1,0 +1,22 @@
+2019-11-15 03:43:20,768 - v2.0 - DEBUG - GraderServer : 233 - <-------- Got connection ( <socket._socketobject object at 0x7fdbb00a4360> ) from a client with details: ('54.149.223.202', 36686) -------->
+2019-11-15 03:43:20,777 - v2.0 - DEBUG - GraderServer : 237 - Started process <Process(Process-51, started daemon)> for client: 54.149.223.202
+2019-11-15 03:43:20,784 - v2.0 - DEBUG - GraderServer : 184 - Connection ( <socket._socketobject object at 0x7fdbb00a4360> ) established at ('54.149.223.202', 36686)
+2019-11-15 03:43:20,789 - v2.0 - DEBUG - GraderServer : 197 - <-------- LabID ( 116 ); for labType ( LINUX ) received from client: 54.149.223.202 -------->
+2019-11-15 03:43:20,789 - v2.0 - INFO - GraderServer : 242 - <-------- Fetching system instructions for lab with type LINUX; ID 116 -------->
+2019-11-15 03:43:20,877 - v2.0 - DEBUG - GraderServer : 202 - <-------- Sending system instructions fetched to client: 54.149.223.202 -------->
+2019-11-15 03:43:20,891 - v2.0 - DEBUG - GraderServer : 206 - <-------- result for user with ID: 76 received from client: 54.149.223.202 -------->
+<-------- result: {1: 'passed', 2: 'passed', 3: 'passed'} -------->
+2019-11-15 03:43:20,896 - v2.0 - DEBUG - GraderServer : 272 - <-------- posting result for user: 76, machine (54.149.223.202) to https://dev.linuxjobber.com/courses/store_lab_result -------->
+2019-11-15 03:43:21,214 - v2.0 - INFO - GraderServer : 273 - Posting unsuccessful
+2019-11-15 03:43:21,215 - v2.0 - ERROR - GraderServer : 211 - Problem handling request
+Traceback (most recent call last):
+  File "/grader/www/GraderServer.py", line 186, in handle
+    data = pickle.loads(connection.recv(MAX_BUFFER_SIZE))
+  File "/usr/lib64/python2.7/pickle.py", line 1382, in loads
+    return Unpickler(file).load()
+  File "/usr/lib64/python2.7/pickle.py", line 858, in load
+    dispatch[key](self)
+  File "/usr/lib64/python2.7/pickle.py", line 880, in load_eof
+    raise EOFError
+EOFError
+2019-11-15 03:43:21,220 - v2.0 - DEBUG - GraderServer : 213 - Closing socket

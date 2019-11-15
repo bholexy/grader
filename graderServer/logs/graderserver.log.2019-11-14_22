@@ -1,0 +1,13 @@
+2019-11-14 22:43:49,056 - v2.0 - DEBUG - GraderServer : 233 - <-------- Got connection ( <socket._socketobject object at 0x7fdbb00a44b0> ) from a client with details: ('54.149.223.202', 36600) -------->
+2019-11-14 22:43:49,058 - v2.0 - DEBUG - GraderServer : 237 - Started process <Process(Process-50, started daemon)> for client: 54.149.223.202
+2019-11-14 22:43:49,059 - v2.0 - DEBUG - GraderServer : 184 - Connection ( <socket._socketobject object at 0x7fdbb00a44b0> ) established at ('54.149.223.202', 36600)
+2019-11-14 22:43:49,060 - v2.0 - DEBUG - GraderServer : 197 - <-------- LabID ( 116 ); for labType ( LINUX ) received from client: 54.149.223.202 -------->
+2019-11-14 22:43:49,061 - v2.0 - INFO - GraderServer : 242 - <-------- Fetching system instructions for lab with type LINUX; ID 116 -------->
+2019-11-14 22:43:49,076 - v2.0 - DEBUG - GraderServer : 202 - <-------- Sending system instructions fetched to client: 54.149.223.202 -------->
+2019-11-14 22:43:49,089 - v2.0 - DEBUG - GraderServer : 206 - <-------- result for user with ID: 76 received from client: 54.149.223.202 -------->
+<-------- result: {1: 'passed', 2: 'failed', 3: 'passed'} -------->
+2019-11-14 22:43:49,090 - v2.0 - DEBUG - GraderServer : 272 - <-------- posting result for user: 76, machine (54.149.223.202) to https://dev.linuxjobber.com/courses/store_lab_result -------->
+2019-11-14 22:43:49,521 - v2.0 - INFO - GraderServer : 273 - Posting unsuccessful
+2019-11-14 22:43:49,522 - v2.0 - INFO - GraderServer : 192 - <-------- no data received from host: 54.149.223.202 -------->
+2019-11-14 22:43:49,522 - v2.0 - INFO - GraderServer : 193 - Remote system sent an EOF
+2019-11-14 22:43:49,522 - v2.0 - DEBUG - GraderServer : 213 - Closing socket

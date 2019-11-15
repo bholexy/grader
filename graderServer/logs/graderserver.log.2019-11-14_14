@@ -1,0 +1,157 @@
+2019-11-14 14:40:12,984 - v2.0 - DEBUG - GraderServer : 233 - <-------- Got connection ( <socket._socketobject object at 0x7fdbb00a44b0> ) from a client with details: ('34.217.104.204', 56940) -------->
+2019-11-14 14:40:12,986 - v2.0 - DEBUG - GraderServer : 237 - Started process <Process(Process-32, started daemon)> for client: 34.217.104.204
+2019-11-14 14:40:12,987 - v2.0 - DEBUG - GraderServer : 184 - Connection ( <socket._socketobject object at 0x7fdbb00a44b0> ) established at ('34.217.104.204', 56940)
+2019-11-14 14:40:12,988 - v2.0 - DEBUG - GraderServer : 197 - <-------- LabID ( 111 ); for labType ( LINUX ) received from client: 34.217.104.204 -------->
+2019-11-14 14:40:12,988 - v2.0 - INFO - GraderServer : 242 - <-------- Fetching system instructions for lab with type LINUX; ID 111 -------->
+2019-11-14 14:40:13,004 - v2.0 - DEBUG - GraderServer : 202 - <-------- Sending system instructions fetched to client: 34.217.104.204 -------->
+2019-11-14 14:40:13,024 - v2.0 - DEBUG - GraderServer : 206 - <-------- result for user with ID: 1255 received from client: 34.217.104.204 -------->
+<-------- result: {1: 'failed', 2: 'failed', 3: 'passed', 4: 'passed', 5: 'passed'} -------->
+2019-11-14 14:40:13,024 - v2.0 - DEBUG - GraderServer : 272 - <-------- posting result for user: 1255, machine (34.217.104.204) to https://dev.linuxjobber.com/courses/store_lab_result -------->
+2019-11-14 14:40:13,729 - v2.0 - INFO - GraderServer : 273 - Posting unsuccessful
+2019-11-14 14:40:13,730 - v2.0 - INFO - GraderServer : 192 - <-------- no data received from host: 34.217.104.204 -------->
+2019-11-14 14:40:13,730 - v2.0 - INFO - GraderServer : 193 - Remote system sent an EOF
+2019-11-14 14:40:13,730 - v2.0 - DEBUG - GraderServer : 213 - Closing socket
+2019-11-14 14:48:03,099 - v2.0 - DEBUG - GraderServer : 233 - <-------- Got connection ( <socket._socketobject object at 0x7fdbb00a4360> ) from a client with details: ('34.217.104.204', 56942) -------->
+2019-11-14 14:48:03,100 - v2.0 - DEBUG - GraderServer : 237 - Started process <Process(Process-33, started daemon)> for client: 34.217.104.204
+2019-11-14 14:48:03,102 - v2.0 - DEBUG - GraderServer : 184 - Connection ( <socket._socketobject object at 0x7fdbb00a4360> ) established at ('34.217.104.204', 56942)
+2019-11-14 14:48:03,103 - v2.0 - DEBUG - GraderServer : 197 - <-------- LabID ( 111 ); for labType ( LINUX ) received from client: 34.217.104.204 -------->
+2019-11-14 14:48:03,103 - v2.0 - INFO - GraderServer : 242 - <-------- Fetching system instructions for lab with type LINUX; ID 111 -------->
+2019-11-14 14:48:03,118 - v2.0 - DEBUG - GraderServer : 202 - <-------- Sending system instructions fetched to client: 34.217.104.204 -------->
+2019-11-14 14:48:03,202 - v2.0 - DEBUG - GraderServer : 206 - <-------- result for user with ID: 1255 received from client: 34.217.104.204 -------->
+<-------- result: {1: 'failed', 2: 'failed', 3: 'passed', 4: 'passed', 5: 'passed'} -------->
+2019-11-14 14:48:03,203 - v2.0 - DEBUG - GraderServer : 272 - <-------- posting result for user: 1255, machine (34.217.104.204) to https://dev.linuxjobber.com/courses/store_lab_result -------->
+2019-11-14 14:48:03,918 - v2.0 - INFO - GraderServer : 273 - Posting unsuccessful
+2019-11-14 14:48:03,919 - v2.0 - INFO - GraderServer : 192 - <-------- no data received from host: 34.217.104.204 -------->
+2019-11-14 14:48:03,919 - v2.0 - INFO - GraderServer : 193 - Remote system sent an EOF
+2019-11-14 14:48:03,919 - v2.0 - DEBUG - GraderServer : 213 - Closing socket
+2019-11-14 14:49:26,714 - v2.0 - DEBUG - GraderServer : 233 - <-------- Got connection ( <socket._socketobject object at 0x7fdbb00a44b0> ) from a client with details: ('34.217.104.204', 56944) -------->
+2019-11-14 14:49:26,716 - v2.0 - DEBUG - GraderServer : 237 - Started process <Process(Process-34, started daemon)> for client: 34.217.104.204
+2019-11-14 14:49:26,717 - v2.0 - DEBUG - GraderServer : 184 - Connection ( <socket._socketobject object at 0x7fdbb00a44b0> ) established at ('34.217.104.204', 56944)
+2019-11-14 14:49:26,720 - v2.0 - DEBUG - GraderServer : 197 - <-------- LabID ( 111 ); for labType ( LINUX ) received from client: 34.217.104.204 -------->
+2019-11-14 14:49:26,720 - v2.0 - INFO - GraderServer : 242 - <-------- Fetching system instructions for lab with type LINUX; ID 111 -------->
+2019-11-14 14:49:26,737 - v2.0 - DEBUG - GraderServer : 202 - <-------- Sending system instructions fetched to client: 34.217.104.204 -------->
+2019-11-14 14:49:26,821 - v2.0 - DEBUG - GraderServer : 206 - <-------- result for user with ID: 1255 received from client: 34.217.104.204 -------->
+<-------- result: {1: 'failed', 2: 'failed', 3: 'passed', 4: 'passed', 5: 'passed'} -------->
+2019-11-14 14:49:26,822 - v2.0 - DEBUG - GraderServer : 272 - <-------- posting result for user: 1255, machine (34.217.104.204) to https://dev.linuxjobber.com/courses/store_lab_result -------->
+2019-11-14 14:49:27,529 - v2.0 - INFO - GraderServer : 273 - Posting unsuccessful
+2019-11-14 14:49:27,529 - v2.0 - INFO - GraderServer : 192 - <-------- no data received from host: 34.217.104.204 -------->
+2019-11-14 14:49:27,529 - v2.0 - INFO - GraderServer : 193 - Remote system sent an EOF
+2019-11-14 14:49:27,529 - v2.0 - DEBUG - GraderServer : 213 - Closing socket
+2019-11-14 14:55:05,501 - v2.0 - DEBUG - GraderServer : 233 - <-------- Got connection ( <socket._socketobject object at 0x7fdbb00a4360> ) from a client with details: ('34.217.104.204', 56946) -------->
+2019-11-14 14:55:05,502 - v2.0 - DEBUG - GraderServer : 237 - Started process <Process(Process-35, started daemon)> for client: 34.217.104.204
+2019-11-14 14:55:05,503 - v2.0 - DEBUG - GraderServer : 184 - Connection ( <socket._socketobject object at 0x7fdbb00a4360> ) established at ('34.217.104.204', 56946)
+2019-11-14 14:55:05,504 - v2.0 - DEBUG - GraderServer : 197 - <-------- LabID ( 111 ); for labType ( LINUX ) received from client: 34.217.104.204 -------->
+2019-11-14 14:55:05,505 - v2.0 - INFO - GraderServer : 242 - <-------- Fetching system instructions for lab with type LINUX; ID 111 -------->
+2019-11-14 14:55:05,520 - v2.0 - DEBUG - GraderServer : 202 - <-------- Sending system instructions fetched to client: 34.217.104.204 -------->
+2019-11-14 14:55:05,607 - v2.0 - DEBUG - GraderServer : 206 - <-------- result for user with ID: 1255 received from client: 34.217.104.204 -------->
+<-------- result: {1: 'failed', 2: 'failed', 3: 'passed', 4: 'passed', 5: 'passed'} -------->
+2019-11-14 14:55:05,608 - v2.0 - DEBUG - GraderServer : 272 - <-------- posting result for user: 1255, machine (34.217.104.204) to https://dev.linuxjobber.com/courses/store_lab_result -------->
+2019-11-14 14:55:06,320 - v2.0 - INFO - GraderServer : 273 - Posting unsuccessful
+2019-11-14 14:55:06,320 - v2.0 - ERROR - GraderServer : 211 - Problem handling request
+Traceback (most recent call last):
+  File "/grader/www/GraderServer.py", line 186, in handle
+    data = pickle.loads(connection.recv(MAX_BUFFER_SIZE))
+  File "/usr/lib64/python2.7/pickle.py", line 1382, in loads
+    return Unpickler(file).load()
+  File "/usr/lib64/python2.7/pickle.py", line 858, in load
+    dispatch[key](self)
+  File "/usr/lib64/python2.7/pickle.py", line 880, in load_eof
+    raise EOFError
+EOFError
+2019-11-14 14:55:06,322 - v2.0 - DEBUG - GraderServer : 213 - Closing socket
+2019-11-14 14:59:09,623 - v2.0 - DEBUG - GraderServer : 233 - <-------- Got connection ( <socket._socketobject object at 0x7fdbb00a44b0> ) from a client with details: ('34.217.104.204', 56948) -------->
+2019-11-14 14:59:09,625 - v2.0 - DEBUG - GraderServer : 237 - Started process <Process(Process-36, started daemon)> for client: 34.217.104.204
+2019-11-14 14:59:09,626 - v2.0 - DEBUG - GraderServer : 184 - Connection ( <socket._socketobject object at 0x7fdbb00a44b0> ) established at ('34.217.104.204', 56948)
+2019-11-14 14:59:09,627 - v2.0 - DEBUG - GraderServer : 197 - <-------- LabID ( 111 ); for labType ( LINUX ) received from client: 34.217.104.204 -------->
+2019-11-14 14:59:09,627 - v2.0 - INFO - GraderServer : 242 - <-------- Fetching system instructions for lab with type LINUX; ID 111 -------->
+2019-11-14 14:59:09,643 - v2.0 - DEBUG - GraderServer : 202 - <-------- Sending system instructions fetched to client: 34.217.104.204 -------->
+2019-11-14 14:59:09,728 - v2.0 - DEBUG - GraderServer : 206 - <-------- result for user with ID: 1255 received from client: 34.217.104.204 -------->
+<-------- result: {1: 'failed', 2: 'failed', 3: 'passed', 4: 'passed', 5: 'passed'} -------->
+2019-11-14 14:59:09,728 - v2.0 - DEBUG - GraderServer : 272 - <-------- posting result for user: 1255, machine (34.217.104.204) to https://dev.linuxjobber.com/courses/store_lab_result -------->
+2019-11-14 14:59:10,433 - v2.0 - INFO - GraderServer : 273 - Posting unsuccessful
+2019-11-14 14:59:10,433 - v2.0 - ERROR - GraderServer : 211 - Problem handling request
+Traceback (most recent call last):
+  File "/grader/www/GraderServer.py", line 186, in handle
+    data = pickle.loads(connection.recv(MAX_BUFFER_SIZE))
+  File "/usr/lib64/python2.7/pickle.py", line 1382, in loads
+    return Unpickler(file).load()
+  File "/usr/lib64/python2.7/pickle.py", line 858, in load
+    dispatch[key](self)
+  File "/usr/lib64/python2.7/pickle.py", line 880, in load_eof
+    raise EOFError
+EOFError
+2019-11-14 14:59:10,434 - v2.0 - DEBUG - GraderServer : 213 - Closing socket
+2019-11-14 15:00:14,644 - v2.0 - DEBUG - GraderServer : 233 - <-------- Got connection ( <socket._socketobject object at 0x7fdbb00a4360> ) from a client with details: ('34.217.104.204', 56950) -------->
+2019-11-14 15:00:14,646 - v2.0 - DEBUG - GraderServer : 237 - Started process <Process(Process-37, started daemon)> for client: 34.217.104.204
+2019-11-14 15:00:14,647 - v2.0 - DEBUG - GraderServer : 184 - Connection ( <socket._socketobject object at 0x7fdbb00a4360> ) established at ('34.217.104.204', 56950)
+2019-11-14 15:00:14,649 - v2.0 - DEBUG - GraderServer : 197 - <-------- LabID ( 111 ); for labType ( LINUX ) received from client: 34.217.104.204 -------->
+2019-11-14 15:00:14,649 - v2.0 - INFO - GraderServer : 242 - <-------- Fetching system instructions for lab with type LINUX; ID 111 -------->
+2019-11-14 15:00:14,665 - v2.0 - DEBUG - GraderServer : 202 - <-------- Sending system instructions fetched to client: 34.217.104.204 -------->
+2019-11-14 15:00:14,750 - v2.0 - DEBUG - GraderServer : 206 - <-------- result for user with ID: 1255 received from client: 34.217.104.204 -------->
+<-------- result: {1: 'failed', 2: 'failed', 3: 'passed', 4: 'passed', 5: 'passed'} -------->
+2019-11-14 15:00:14,750 - v2.0 - DEBUG - GraderServer : 272 - <-------- posting result for user: 1255, machine (34.217.104.204) to https://dev.linuxjobber.com/courses/store_lab_result -------->
+2019-11-14 15:00:15,493 - v2.0 - INFO - GraderServer : 273 - Posting unsuccessful
+2019-11-14 15:00:15,493 - v2.0 - INFO - GraderServer : 192 - <-------- no data received from host: 34.217.104.204 -------->
+2019-11-14 15:00:15,493 - v2.0 - INFO - GraderServer : 193 - Remote system sent an EOF
+2019-11-14 15:00:15,493 - v2.0 - DEBUG - GraderServer : 213 - Closing socket
+2019-11-14 15:12:03,019 - v2.0 - DEBUG - GraderServer : 233 - <-------- Got connection ( <socket._socketobject object at 0x7fdbb00a44b0> ) from a client with details: ('54.149.223.202', 35216) -------->
+2019-11-14 15:12:03,021 - v2.0 - DEBUG - GraderServer : 237 - Started process <Process(Process-38, started daemon)> for client: 54.149.223.202
+2019-11-14 15:12:03,022 - v2.0 - DEBUG - GraderServer : 184 - Connection ( <socket._socketobject object at 0x7fdbb00a44b0> ) established at ('54.149.223.202', 35216)
+2019-11-14 15:12:03,027 - v2.0 - DEBUG - GraderServer : 197 - <-------- LabID ( 113 ); for labType ( LINUX ) received from client: 54.149.223.202 -------->
+2019-11-14 15:12:03,027 - v2.0 - INFO - GraderServer : 242 - <-------- Fetching system instructions for lab with type LINUX; ID 113 -------->
+2019-11-14 15:12:03,088 - v2.0 - DEBUG - GraderServer : 202 - <-------- Sending system instructions fetched to client: 54.149.223.202 -------->
+2019-11-14 15:12:03,251 - v2.0 - DEBUG - GraderServer : 206 - <-------- result for user with ID: 76 received from client: 54.149.223.202 -------->
+<-------- result: {1: 'passed', 2: 'failed', 3: 'passed'} -------->
+2019-11-14 15:12:03,252 - v2.0 - DEBUG - GraderServer : 272 - <-------- posting result for user: 76, machine (54.149.223.202) to https://dev.linuxjobber.com/courses/store_lab_result -------->
+2019-11-14 15:12:03,581 - v2.0 - INFO - GraderServer : 273 - Posting unsuccessful
+2019-11-14 15:12:03,581 - v2.0 - ERROR - GraderServer : 211 - Problem handling request
+Traceback (most recent call last):
+  File "/grader/www/GraderServer.py", line 186, in handle
+    data = pickle.loads(connection.recv(MAX_BUFFER_SIZE))
+  File "/usr/lib64/python2.7/pickle.py", line 1382, in loads
+    return Unpickler(file).load()
+  File "/usr/lib64/python2.7/pickle.py", line 858, in load
+    dispatch[key](self)
+  File "/usr/lib64/python2.7/pickle.py", line 880, in load_eof
+    raise EOFError
+EOFError
+2019-11-14 15:12:03,587 - v2.0 - DEBUG - GraderServer : 213 - Closing socket
+2019-11-14 15:15:18,579 - v2.0 - DEBUG - GraderServer : 233 - <-------- Got connection ( <socket._socketobject object at 0x7fdbb00a4360> ) from a client with details: ('54.149.223.202', 35278) -------->
+2019-11-14 15:15:18,580 - v2.0 - DEBUG - GraderServer : 237 - Started process <Process(Process-39, started daemon)> for client: 54.149.223.202
+2019-11-14 15:15:18,582 - v2.0 - DEBUG - GraderServer : 184 - Connection ( <socket._socketobject object at 0x7fdbb00a4360> ) established at ('54.149.223.202', 35278)
+2019-11-14 15:15:18,583 - v2.0 - DEBUG - GraderServer : 197 - <-------- LabID ( 113 ); for labType ( LINUX ) received from client: 54.149.223.202 -------->
+2019-11-14 15:15:18,583 - v2.0 - INFO - GraderServer : 242 - <-------- Fetching system instructions for lab with type LINUX; ID 113 -------->
+2019-11-14 15:15:18,598 - v2.0 - DEBUG - GraderServer : 202 - <-------- Sending system instructions fetched to client: 54.149.223.202 -------->
+2019-11-14 15:15:18,740 - v2.0 - DEBUG - GraderServer : 206 - <-------- result for user with ID: 76 received from client: 54.149.223.202 -------->
+<-------- result: {1: 'passed', 2: 'failed', 3: 'passed'} -------->
+2019-11-14 15:15:18,740 - v2.0 - DEBUG - GraderServer : 272 - <-------- posting result for user: 76, machine (54.149.223.202) to https://dev.linuxjobber.com/courses/store_lab_result -------->
+2019-11-14 15:15:19,027 - v2.0 - INFO - GraderServer : 273 - Posting unsuccessful
+2019-11-14 15:15:19,027 - v2.0 - INFO - GraderServer : 192 - <-------- no data received from host: 54.149.223.202 -------->
+2019-11-14 15:15:19,027 - v2.0 - INFO - GraderServer : 193 - Remote system sent an EOF
+2019-11-14 15:15:19,027 - v2.0 - DEBUG - GraderServer : 213 - Closing socket
+2019-11-14 15:19:52,180 - v2.0 - DEBUG - GraderServer : 233 - <-------- Got connection ( <socket._socketobject object at 0x7fdbb00a44b0> ) from a client with details: ('34.217.104.204', 56954) -------->
+2019-11-14 15:19:52,182 - v2.0 - DEBUG - GraderServer : 237 - Started process <Process(Process-40, started daemon)> for client: 34.217.104.204
+2019-11-14 15:19:52,183 - v2.0 - DEBUG - GraderServer : 184 - Connection ( <socket._socketobject object at 0x7fdbb00a44b0> ) established at ('34.217.104.204', 56954)
+2019-11-14 15:19:52,184 - v2.0 - DEBUG - GraderServer : 197 - <-------- LabID ( 111 ); for labType ( LINUX ) received from client: 34.217.104.204 -------->
+2019-11-14 15:19:52,184 - v2.0 - INFO - GraderServer : 242 - <-------- Fetching system instructions for lab with type LINUX; ID 111 -------->
+2019-11-14 15:19:52,199 - v2.0 - DEBUG - GraderServer : 202 - <-------- Sending system instructions fetched to client: 34.217.104.204 -------->
+2019-11-14 15:19:52,219 - v2.0 - DEBUG - GraderServer : 206 - <-------- result for user with ID: 1255 received from client: 34.217.104.204 -------->
+<-------- result: {1: 'passed', 2: 'passed', 3: 'passed', 4: 'passed', 5: 'passed'} -------->
+2019-11-14 15:19:52,219 - v2.0 - DEBUG - GraderServer : 272 - <-------- posting result for user: 1255, machine (34.217.104.204) to https://dev.linuxjobber.com/courses/store_lab_result -------->
+2019-11-14 15:19:52,940 - v2.0 - INFO - GraderServer : 273 - Posting unsuccessful
+2019-11-14 15:19:52,940 - v2.0 - INFO - GraderServer : 192 - <-------- no data received from host: 34.217.104.204 -------->
+2019-11-14 15:19:52,940 - v2.0 - INFO - GraderServer : 193 - Remote system sent an EOF
+2019-11-14 15:19:52,940 - v2.0 - DEBUG - GraderServer : 213 - Closing socket
+2019-11-14 15:21:59,481 - v2.0 - DEBUG - GraderServer : 233 - <-------- Got connection ( <socket._socketobject object at 0x7fdbb00a4360> ) from a client with details: ('34.217.104.204', 56956) -------->
+2019-11-14 15:21:59,482 - v2.0 - DEBUG - GraderServer : 237 - Started process <Process(Process-41, started daemon)> for client: 34.217.104.204
+2019-11-14 15:21:59,484 - v2.0 - DEBUG - GraderServer : 184 - Connection ( <socket._socketobject object at 0x7fdbb00a4360> ) established at ('34.217.104.204', 56956)
+2019-11-14 15:21:59,485 - v2.0 - DEBUG - GraderServer : 197 - <-------- LabID ( 112 ); for labType ( LINUX ) received from client: 34.217.104.204 -------->
+2019-11-14 15:21:59,485 - v2.0 - INFO - GraderServer : 242 - <-------- Fetching system instructions for lab with type LINUX; ID 112 -------->
+2019-11-14 15:21:59,500 - v2.0 - DEBUG - GraderServer : 202 - <-------- Sending system instructions fetched to client: 34.217.104.204 -------->
+2019-11-14 15:21:59,985 - v2.0 - DEBUG - GraderServer : 206 - <-------- result for user with ID: 1255 received from client: 34.217.104.204 -------->
+<-------- result: {1: 'passed', 2: 'passed', 3: 'failed', 4: 'failed', 5: 'passed', 6: 'passed'} -------->
+2019-11-14 15:21:59,985 - v2.0 - DEBUG - GraderServer : 272 - <-------- posting result for user: 1255, machine (34.217.104.204) to https://dev.linuxjobber.com/courses/store_lab_result -------->
+2019-11-14 15:22:00,740 - v2.0 - INFO - GraderServer : 273 - Posting unsuccessful
+2019-11-14 15:22:00,741 - v2.0 - INFO - GraderServer : 192 - <-------- no data received from host: 34.217.104.204 -------->
+2019-11-14 15:22:00,741 - v2.0 - INFO - GraderServer : 193 - Remote system sent an EOF
+2019-11-14 15:22:00,741 - v2.0 - DEBUG - GraderServer : 213 - Closing socket

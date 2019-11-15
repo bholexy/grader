@@ -1,0 +1,42 @@
+2019-11-12 17:30:32,091 - v2.0 - DEBUG - GraderServer : 63 - repo communication data not properly set! url not provided, using default!
+2019-11-12 17:30:32,092 - v2.0 - DEBUG - GraderServer : 69 - The notes location wasn't provided or provided path doesn't exist. Using current directory
+2019-11-12 17:30:32,093 - v2.0 - INFO - GraderServer : 288 - <--------------> starting socket <-------------->
+2019-11-12 17:30:32,093 - v2.0 - INFO - GraderServer : 225 - <-------- socket created -------->
+2019-11-12 17:30:32,093 - v2.0 - DEBUG - GraderServer : 227 - <-------- Socket bind complete on device. IP: 172.17.0.5, PORT: 58500 -------->
+2019-11-12 17:30:32,093 - v2.0 - DEBUG - GraderServer : 230 - <-------- Socket now listening on PORT: 58500 -------->
+2019-11-12 17:35:11,771 - v2.0 - DEBUG - GraderServer : 233 - <-------- Got connection ( <socket._socketobject object at 0x7f27783b3360> ) from a client with details: ('54.186.163.36', 39038) -------->
+2019-11-12 17:35:11,780 - v2.0 - DEBUG - GraderServer : 237 - Started process <Process(Process-1, started daemon)> for client: 54.186.163.36
+2019-11-12 17:35:11,783 - v2.0 - DEBUG - GraderServer : 184 - Connection ( <socket._socketobject object at 0x7f27783b3360> ) established at ('54.186.163.36', 39038)
+2019-11-12 17:35:11,787 - v2.0 - DEBUG - GraderServer : 197 - <-------- LabID ( 111 ); for labType ( LINUX ) received from client: 54.186.163.36 -------->
+2019-11-12 17:35:11,787 - v2.0 - INFO - GraderServer : 242 - <-------- Fetching system instructions for lab with type LINUX; ID 111 -------->
+2019-11-12 17:35:11,871 - v2.0 - ERROR - GraderServer : 211 - Problem handling request
+Traceback (most recent call last):
+  File "/grader/www/GraderServer.py", line 201, in handle
+    instructs = fetch_instrct(lab_tp,lab_id)
+  File "/grader/www/GraderServer.py", line 243, in fetch_instrct
+    db = MySQLdb.connect('ljdb2','linuxjobber','8iu7*IU&','linuxjobber')
+  File "/usr/lib64/python2.7/site-packages/MySQLdb/__init__.py", line 84, in Connect
+    return Connection(*args, **kwargs)
+  File "/usr/lib64/python2.7/site-packages/MySQLdb/connections.py", line 164, in __init__
+    super(Connection, self).__init__(*args, **kwargs2)
+OperationalError: (2059, "Authentication plugin 'caching_sha2_password' cannot be loaded: /usr/lib64/mysql/plugin/caching_sha2_password.so: cannot open shared object file: No such file or directory")
+2019-11-12 17:35:11,876 - v2.0 - DEBUG - GraderServer : 213 - Closing socket
+2019-11-12 18:03:34,960 - v2.0 - DEBUG - GraderServer : 63 - repo communication data not properly set! url not provided, using default!
+2019-11-12 18:03:34,961 - v2.0 - DEBUG - GraderServer : 69 - The notes location wasn't provided or provided path doesn't exist. Using current directory
+2019-11-12 18:03:34,963 - v2.0 - INFO - GraderServer : 288 - <--------------> starting socket <-------------->
+2019-11-12 18:03:34,963 - v2.0 - INFO - GraderServer : 225 - <-------- socket created -------->
+2019-11-12 18:03:34,963 - v2.0 - DEBUG - GraderServer : 227 - <-------- Socket bind complete on device. IP: 172.17.0.5, PORT: 58500 -------->
+2019-11-12 18:03:34,963 - v2.0 - DEBUG - GraderServer : 230 - <-------- Socket now listening on PORT: 58500 -------->
+2019-11-12 18:04:08,978 - v2.0 - DEBUG - GraderServer : 233 - <-------- Got connection ( <socket._socketobject object at 0x7fc3c82fd360> ) from a client with details: ('54.186.163.36', 39040) -------->
+2019-11-12 18:04:08,985 - v2.0 - DEBUG - GraderServer : 237 - Started process <Process(Process-1, started daemon)> for client: 54.186.163.36
+2019-11-12 18:04:08,987 - v2.0 - DEBUG - GraderServer : 184 - Connection ( <socket._socketobject object at 0x7fc3c82fd360> ) established at ('54.186.163.36', 39040)
+2019-11-12 18:04:08,991 - v2.0 - DEBUG - GraderServer : 197 - <-------- LabID ( 111 ); for labType ( LINUX ) received from client: 54.186.163.36 -------->
+2019-11-12 18:04:08,991 - v2.0 - INFO - GraderServer : 242 - <-------- Fetching system instructions for lab with type LINUX; ID 111 -------->
+2019-11-12 18:04:09,076 - v2.0 - DEBUG - GraderServer : 202 - <-------- Sending system instructions fetched to client: 54.186.163.36 -------->
+2019-11-12 18:04:09,094 - v2.0 - DEBUG - GraderServer : 206 - <-------- result for user with ID: 1527 received from client: 54.186.163.36 -------->
+<-------- result: {1: 'passed', 2: 'failed', 3: 'failed', 4: 'failed', 5: 'failed'} -------->
+2019-11-12 18:04:09,094 - v2.0 - DEBUG - GraderServer : 272 - <-------- posting result for user: 1527, machine (54.186.163.36) to http://stage.linuxjobber.com/courses/store_lab_result -------->
+2019-11-12 18:04:09,248 - v2.0 - INFO - GraderServer : 273 - Posting unsuccessful
+2019-11-12 18:04:09,248 - v2.0 - INFO - GraderServer : 192 - <-------- no data received from host: 54.186.163.36 -------->
+2019-11-12 18:04:09,248 - v2.0 - INFO - GraderServer : 193 - Remote system sent an EOF
+2019-11-12 18:04:09,248 - v2.0 - DEBUG - GraderServer : 213 - Closing socket
