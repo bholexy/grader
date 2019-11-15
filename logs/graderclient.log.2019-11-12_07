@@ -1,0 +1,6 @@
+2019-11-12 09:38:29,614 - v1.2 - INFO - GraderClient : 113 - Found home directory for the user (sysadmin)
+2019-11-12 09:38:29,641 - v1.2 - INFO - GraderClient : 116 - All current instances of user logged off
+2019-11-12 09:38:29,641 - v1.2 - INFO - GraderClient : 69 - <------> connecting to server socket <------->
+2019-11-12 09:38:29,641 - v1.2 - INFO - GraderClient : 70 - 52.39.8.107
+2019-11-12 09:38:29,641 - v1.2 - INFO - GraderClient : 71 - 58500
+2019-11-12 09:38:29,642 - v1.2 - INFO - GraderClient : 74 - <------ connected to socket and requested lab instructions ------>

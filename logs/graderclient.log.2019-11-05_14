@@ -1,0 +1,52 @@
+2019-11-05 14:14:10,318 - v1.2 - INFO - GraderClient : 111 - Found home directory for the user (sysadmin)
+2019-11-05 14:14:10,341 - v1.2 - INFO - GraderClient : 114 - All current instances of user logged off
+2019-11-05 14:14:10,342 - v1.2 - INFO - GraderClient : 69 - <------> connecting to server socket <------->
+2019-11-05 14:14:10,342 - v1.2 - INFO - GraderClient : 70 - 54.69.255.221
+2019-11-05 14:14:10,342 - v1.2 - INFO - GraderClient : 71 - 58500
+2019-11-05 14:14:10,343 - v1.2 - INFO - GraderClient : 74 - <------ connected to socket and requested lab instructions ------>
+2019-11-05 14:14:10,668 - v1.2 - DEBUG - GraderClient : 80 - <-------- data received from host: 54.69.255.221; it must be instructions!! -------->
+2019-11-05 14:14:10,671 - v1.2 - DEBUG - GraderClient : 60 - command execution finished with returncode 0, and resulting data: true
+; error: .
+2019-11-05 14:14:10,675 - v1.2 - DEBUG - GraderClient : 60 - command execution finished with returncode 0, and resulting data: False
+; error: .
+2019-11-05 14:14:10,677 - v1.2 - DEBUG - GraderClient : 60 - command execution finished with returncode 0, and resulting data: False
+; error: .
+2019-11-05 14:14:10,680 - v1.2 - DEBUG - GraderClient : 60 - command execution finished with returncode 0, and resulting data: False
+; error: .
+2019-11-05 14:14:10,683 - v1.2 - DEBUG - GraderClient : 60 - command execution finished with returncode 0, and resulting data: False
+; error: .
+2019-11-05 14:14:10,683 - v1.2 - INFO - GraderClient : 50 - <-------- sending result for LINUX lab { id = 111 } to host: 54.69.255.221 -------->
+2019-11-05 14:14:10,684 - v1.2 - DEBUG - GraderClient : 52 - <-------- result for lab sent -------->
+2019-11-05 14:20:11,540 - v1.2 - INFO - GraderClient : 111 - Found home directory for the user (sysadmin)
+2019-11-05 14:20:11,563 - v1.2 - INFO - GraderClient : 114 - All current instances of user logged off
+2019-11-05 14:20:11,564 - v1.2 - INFO - GraderClient : 69 - <------> connecting to server socket <------->
+2019-11-05 14:20:11,564 - v1.2 - INFO - GraderClient : 70 - 34.219.124.169
+2019-11-05 14:20:11,564 - v1.2 - INFO - GraderClient : 71 - 58500
+2019-11-05 14:20:11,565 - v1.2 - DEBUG - GraderClient : 116 - Client startup process failed!
+ Error: [Errno 111] Connection refused
+2019-11-05 14:20:47,292 - v1.2 - INFO - GraderClient : 111 - Found home directory for the user (sysadmin)
+2019-11-05 14:20:47,322 - v1.2 - INFO - GraderClient : 114 - All current instances of user logged off
+2019-11-05 14:20:47,323 - v1.2 - INFO - GraderClient : 69 - <------> connecting to server socket <------->
+2019-11-05 14:20:47,323 - v1.2 - INFO - GraderClient : 70 - 54.69.255.221
+2019-11-05 14:20:47,323 - v1.2 - INFO - GraderClient : 71 - 58500
+2019-11-05 14:20:47,324 - v1.2 - INFO - GraderClient : 74 - <------ connected to socket and requested lab instructions ------>
+2019-11-05 14:20:47,348 - v1.2 - DEBUG - GraderClient : 80 - <-------- data received from host: 54.69.255.221; it must be instructions!! -------->
+2019-11-05 14:20:47,352 - v1.2 - DEBUG - GraderClient : 60 - command execution finished with returncode 0, and resulting data: true
+; error: .
+2019-11-05 14:20:47,362 - v1.2 - DEBUG - GraderClient : 60 - command execution finished with returncode 0, and resulting data: False
+; error: .
+2019-11-05 14:20:47,364 - v1.2 - DEBUG - GraderClient : 60 - command execution finished with returncode 0, and resulting data: False
+; error: .
+2019-11-05 14:20:47,368 - v1.2 - DEBUG - GraderClient : 60 - command execution finished with returncode 0, and resulting data: False
+; error: .
+2019-11-05 14:20:47,371 - v1.2 - DEBUG - GraderClient : 60 - command execution finished with returncode 0, and resulting data: False
+; error: .
+2019-11-05 14:20:47,371 - v1.2 - INFO - GraderClient : 50 - <-------- sending result for LINUX lab { id = 111 } to host: 54.69.255.221 -------->
+2019-11-05 14:20:47,371 - v1.2 - DEBUG - GraderClient : 52 - <-------- result for lab sent -------->
+2019-11-05 14:21:04,612 - v1.2 - INFO - GraderClient : 111 - Found home directory for the user (sysadmin)
+2019-11-05 14:21:04,635 - v1.2 - INFO - GraderClient : 114 - All current instances of user logged off
+2019-11-05 14:21:04,635 - v1.2 - INFO - GraderClient : 69 - <------> connecting to server socket <------->
+2019-11-05 14:21:04,635 - v1.2 - INFO - GraderClient : 70 - 34.219.124.169
+2019-11-05 14:21:04,635 - v1.2 - INFO - GraderClient : 71 - 58500
+2019-11-05 14:21:04,636 - v1.2 - DEBUG - GraderClient : 116 - Client startup process failed!
+ Error: [Errno 111] Connection refused

@@ -1,0 +1,14 @@
+2019-10-28 19:47:16,021 - v1.2 - INFO - GraderClient : 111 - Found home directory for the user (sysadmin)
+2019-10-28 19:47:16,047 - v1.2 - INFO - GraderClient : 114 - All current instances of user logged off
+2019-10-28 19:47:16,047 - v1.2 - INFO - GraderClient : 69 - <------> connecting to server socket <------->
+2019-10-28 19:47:16,047 - v1.2 - INFO - GraderClient : 70 - 52.41.75.77
+2019-10-28 19:47:16,047 - v1.2 - INFO - GraderClient : 71 - 58500
+2019-10-28 19:49:23,279 - v1.2 - DEBUG - GraderClient : 116 - Client startup process failed!
+ Error: [Errno 110] Connection timed out
+2019-10-28 20:39:44,506 - v1.2 - INFO - GraderClient : 111 - Found home directory for the user (sysadmin)
+2019-10-28 20:39:44,535 - v1.2 - INFO - GraderClient : 114 - All current instances of user logged off
+2019-10-28 20:39:44,535 - v1.2 - INFO - GraderClient : 69 - <------> connecting to server socket <------->
+2019-10-28 20:39:44,535 - v1.2 - INFO - GraderClient : 70 - 34.215.225.26
+2019-10-28 20:39:44,535 - v1.2 - INFO - GraderClient : 71 - 58500
+2019-10-28 20:41:51,823 - v1.2 - DEBUG - GraderClient : 116 - Client startup process failed!
+ Error: [Errno 110] Connection timed out

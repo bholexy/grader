@@ -1,0 +1,81 @@
+2019-11-04 16:55:53,967 - v1.2 - INFO - GraderClient : 111 - Found home directory for the user (sysadmin)
+2019-11-04 16:55:53,990 - v1.2 - INFO - GraderClient : 114 - All current instances of user logged off
+2019-11-04 16:55:53,990 - v1.2 - INFO - GraderClient : 69 - <------> connecting to server socket <------->
+2019-11-04 16:55:53,990 - v1.2 - INFO - GraderClient : 70 - 54.69.255.221
+2019-11-04 16:55:53,990 - v1.2 - INFO - GraderClient : 71 - 58500
+2019-11-04 16:55:53,992 - v1.2 - INFO - GraderClient : 74 - <------ connected to socket and requested lab instructions ------>
+2019-11-04 16:55:54,230 - v1.2 - DEBUG - GraderClient : 80 - <-------- data received from host: 54.69.255.221; it must be instructions!! -------->
+2019-11-04 16:55:54,235 - v1.2 - DEBUG - GraderClient : 60 - command execution finished with returncode 127, and resulting data: ; error: /bin/sh: Follow: command not found
+.
+2019-11-04 16:55:54,261 - v1.2 - DEBUG - GraderClient : 60 - command execution finished with returncode 0, and resulting data: False
+; error: grep: /home/sysadmin/.sh_history: No such file or directory
+.
+2019-11-04 16:55:54,263 - v1.2 - DEBUG - GraderClient : 60 - command execution finished with returncode 0, and resulting data: False
+; error: .
+2019-11-04 16:55:54,266 - v1.2 - DEBUG - GraderClient : 60 - command execution finished with returncode 0, and resulting data: False
+; error: grep: /home/sysadmin/.sh_history: No such file or directory
+.
+2019-11-04 16:55:54,271 - v1.2 - DEBUG - GraderClient : 60 - command execution finished with returncode 0, and resulting data: False
+; error: grep: /home/sysadmin/.sh_history: No such file or directory
+grep: /home/sysadmin/.sh_history: No such file or directory
+.
+2019-11-04 16:55:54,271 - v1.2 - INFO - GraderClient : 50 - <-------- sending result for LINUX lab { id = 111 } to host: 54.69.255.221 -------->
+2019-11-04 16:55:54,271 - v1.2 - DEBUG - GraderClient : 52 - <-------- result for lab sent -------->
+2019-11-04 17:01:05,934 - v1.2 - INFO - GraderClient : 111 - Found home directory for the user (sysadmin)
+2019-11-04 17:01:05,992 - v1.2 - INFO - GraderClient : 114 - All current instances of user logged off
+2019-11-04 17:01:05,993 - v1.2 - INFO - GraderClient : 69 - <------> connecting to server socket <------->
+2019-11-04 17:01:05,993 - v1.2 - INFO - GraderClient : 70 - 54.69.255.221
+2019-11-04 17:01:05,993 - v1.2 - INFO - GraderClient : 71 - 58500
+2019-11-04 17:01:06,001 - v1.2 - INFO - GraderClient : 74 - <------ connected to socket and requested lab instructions ------>
+2019-11-04 17:01:06,110 - v1.2 - DEBUG - GraderClient : 80 - <-------- data received from host: 54.69.255.221; it must be instructions!! -------->
+2019-11-04 17:01:06,113 - v1.2 - DEBUG - GraderClient : 60 - command execution finished with returncode 127, and resulting data: ; error: /bin/sh: Follow: command not found
+.
+2019-11-04 17:01:06,133 - v1.2 - DEBUG - GraderClient : 60 - command execution finished with returncode 0, and resulting data: False
+; error: grep: /home/sysadmin/.sh_history: No such file or directory
+.
+2019-11-04 17:01:06,135 - v1.2 - DEBUG - GraderClient : 60 - command execution finished with returncode 0, and resulting data: False
+; error: .
+2019-11-04 17:01:06,140 - v1.2 - DEBUG - GraderClient : 60 - command execution finished with returncode 0, and resulting data: False
+; error: grep: /home/sysadmin/.sh_history: No such file or directory
+.
+2019-11-04 17:01:06,144 - v1.2 - DEBUG - GraderClient : 60 - command execution finished with returncode 0, and resulting data: False
+; error: grep: /home/sysadmin/.sh_history: No such file or directory
+grep: /home/sysadmin/.sh_history: No such file or directory
+.
+2019-11-04 17:01:06,145 - v1.2 - INFO - GraderClient : 50 - <-------- sending result for LINUX lab { id = 111 } to host: 54.69.255.221 -------->
+2019-11-04 17:01:06,145 - v1.2 - DEBUG - GraderClient : 52 - <-------- result for lab sent -------->
+2019-11-04 17:56:54,772 - v1.2 - INFO - GraderClient : 111 - Found home directory for the user (sysadmin)
+2019-11-04 17:56:54,860 - v1.2 - INFO - GraderClient : 114 - All current instances of user logged off
+2019-11-04 17:56:54,861 - v1.2 - INFO - GraderClient : 69 - <------> connecting to server socket <------->
+2019-11-04 17:56:54,861 - v1.2 - INFO - GraderClient : 70 - 54.69.255.221
+2019-11-04 17:56:54,861 - v1.2 - INFO - GraderClient : 71 - 58500
+2019-11-04 17:56:54,865 - v1.2 - INFO - GraderClient : 74 - <------ connected to socket and requested lab instructions ------>
+2019-11-04 17:56:54,911 - v1.2 - DEBUG - GraderClient : 80 - <-------- data received from host: 54.69.255.221; it must be instructions!! -------->
+2019-11-04 17:56:54,915 - v1.2 - DEBUG - GraderClient : 60 - command execution finished with returncode 0, and resulting data: true
+; error: grep: /home/sysadmin/.sh_history: No such file or directory
+.
+2019-11-04 17:56:54,918 - v1.2 - DEBUG - GraderClient : 60 - command execution finished with returncode 0, and resulting data: False
+; error: grep: /home/sysadmin/.sh_history: No such file or directory
+.
+2019-11-04 17:56:54,921 - v1.2 - DEBUG - GraderClient : 60 - command execution finished with returncode 0, and resulting data: False
+; error: .
+2019-11-04 17:56:54,925 - v1.2 - DEBUG - GraderClient : 60 - command execution finished with returncode 0, and resulting data: False
+; error: grep: /home/sysadmin/.sh_history: No such file or directory
+.
+2019-11-04 17:56:54,928 - v1.2 - DEBUG - GraderClient : 60 - command execution finished with returncode 0, and resulting data: False
+; error: grep: /home/sysadmin/.sh_history: No such file or directory
+.
+2019-11-04 17:56:54,931 - v1.2 - DEBUG - GraderClient : 60 - command execution finished with returncode 0, and resulting data: False
+; error: grep: /home/sysadmin/.sh_history: No such file or directory
+.
+2019-11-04 17:56:54,937 - v1.2 - DEBUG - GraderClient : 60 - command execution finished with returncode 0, and resulting data: false
+; error: grep: /home/sysadmin/.sh_history: No such file or directory
+.
+2019-11-04 17:56:54,940 - v1.2 - DEBUG - GraderClient : 60 - command execution finished with returncode 0, and resulting data: False
+; error: grep: /home/sysadmin/.sh_history: No such file or directory
+.
+2019-11-04 17:56:54,943 - v1.2 - DEBUG - GraderClient : 60 - command execution finished with returncode 0, and resulting data: False
+; error: grep: /home/sysadmin/.sh_history: No such file or directory
+.
+2019-11-04 17:56:54,944 - v1.2 - INFO - GraderClient : 50 - <-------- sending result for LINUX lab { id = 25 } to host: 54.69.255.221 -------->
+2019-11-04 17:56:54,944 - v1.2 - DEBUG - GraderClient : 52 - <-------- result for lab sent -------->

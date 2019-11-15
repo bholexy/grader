@@ -1,0 +1,81 @@
+2019-11-12 17:35:15,942 - v1.2 - INFO - GraderClient : 113 - Found home directory for the user (sysadmin)
+2019-11-12 17:35:15,968 - v1.2 - INFO - GraderClient : 116 - All current instances of user logged off
+2019-11-12 17:35:15,969 - v1.2 - INFO - GraderClient : 69 - <------> connecting to server socket <------->
+2019-11-12 17:35:15,969 - v1.2 - INFO - GraderClient : 70 - dev.chatscrum.com
+2019-11-12 17:35:15,969 - v1.2 - INFO - GraderClient : 71 - 58500
+2019-11-12 17:35:15,982 - v1.2 - INFO - GraderClient : 74 - <------ connected to socket and requested lab instructions ------>
+2019-11-12 18:04:13,158 - v1.2 - INFO - GraderClient : 113 - Found home directory for the user (sysadmin)
+2019-11-12 18:04:13,186 - v1.2 - INFO - GraderClient : 116 - All current instances of user logged off
+2019-11-12 18:04:13,186 - v1.2 - INFO - GraderClient : 69 - <------> connecting to server socket <------->
+2019-11-12 18:04:13,186 - v1.2 - INFO - GraderClient : 70 - dev.chatscrum.com
+2019-11-12 18:04:13,186 - v1.2 - INFO - GraderClient : 71 - 58500
+2019-11-12 18:04:13,210 - v1.2 - INFO - GraderClient : 74 - <------ connected to socket and requested lab instructions ------>
+2019-11-12 18:04:13,316 - v1.2 - DEBUG - GraderClient : 79 - <-------- data received from host: (dp0
+I1
+(lp1
+S'adminKnows'
+p2
+aS'echo "true"'
+p3
+asI2
+(lp4
+g2
+aS'grep "yum.*.git*" ~/.bash_history 2>&1 > /dev/null && echo "true" || echo "False"'
+p5
+asI3
+(lp6
+g2
+aS'[ -d ~/on_prem ] && echo "true" || echo "False"'
+p7
+asI4
+(lp8
+g2
+aS'history -w; if grep "^git.*checkout.*" ~/.bash_history 2>&1 > /dev/null; then echo "true"; else echo "False"; fi'
+p9
+asI5
+(lp10
+g2
+aS'history -w; if grep "git.*commit.*" ~/.bash_history 2>&1 > /dev/null && grep "git.*push.*" ~/.bash_history 2>&1 > /dev/null; then echo "true"; else echo "False"; fi'
+p11
+as.; it must be instructions!! -------->
+2019-11-12 18:04:13,317 - v1.2 - DEBUG - GraderClient : 81 - <-------- data received from host: (dp0
+I1
+(lp1
+S'adminKnows'
+p2
+aS'echo "true"'
+p3
+asI2
+(lp4
+g2
+aS'grep "yum.*.git*" ~/.bash_history 2>&1 > /dev/null && echo "true" || echo "False"'
+p5
+asI3
+(lp6
+g2
+aS'[ -d ~/on_prem ] && echo "true" || echo "False"'
+p7
+asI4
+(lp8
+g2
+aS'history -w; if grep "^git.*checkout.*" ~/.bash_history 2>&1 > /dev/null; then echo "true"; else echo "False"; fi'
+p9
+asI5
+(lp10
+g2
+aS'history -w; if grep "git.*commit.*" ~/.bash_history 2>&1 > /dev/null && grep "git.*push.*" ~/.bash_history 2>&1 > /dev/null; then echo "true"; else echo "False"; fi'
+p11
+as.; it must be instructions!! -------->
+2019-11-12 18:04:13,317 - v1.2 - DEBUG - GraderClient : 82 - <-------- data received from host: dev.chatscrum.com; it must be instructions!! -------->
+2019-11-12 18:04:13,320 - v1.2 - DEBUG - GraderClient : 60 - command execution finished with returncode 0, and resulting data: true
+; error: .
+2019-11-12 18:04:13,324 - v1.2 - DEBUG - GraderClient : 60 - command execution finished with returncode 0, and resulting data: False
+; error: .
+2019-11-12 18:04:13,326 - v1.2 - DEBUG - GraderClient : 60 - command execution finished with returncode 0, and resulting data: False
+; error: .
+2019-11-12 18:04:13,329 - v1.2 - DEBUG - GraderClient : 60 - command execution finished with returncode 0, and resulting data: False
+; error: .
+2019-11-12 18:04:13,333 - v1.2 - DEBUG - GraderClient : 60 - command execution finished with returncode 0, and resulting data: False
+; error: .
+2019-11-12 18:04:13,333 - v1.2 - INFO - GraderClient : 50 - <-------- sending result for LINUX lab { id = 111 } to host: dev.chatscrum.com -------->
+2019-11-12 18:04:13,333 - v1.2 - DEBUG - GraderClient : 52 - <-------- result for lab sent -------->

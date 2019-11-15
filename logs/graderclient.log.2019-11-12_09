@@ -1,0 +1,9 @@
+2019-11-12 11:18:38,295 - v1.2 - INFO - GraderClient : 113 - Found home directory for the user (sysadmin)
+2019-11-12 11:18:38,321 - v1.2 - INFO - GraderClient : 116 - All current instances of user logged off
+2019-11-12 11:18:38,321 - v1.2 - INFO - GraderClient : 69 - <------> connecting to server socket <------->
+2019-11-12 11:18:38,321 - v1.2 - INFO - GraderClient : 70 - 52.39.8.107
+2019-11-12 11:18:38,321 - v1.2 - INFO - GraderClient : 71 - 58500
+2019-11-12 11:18:38,323 - v1.2 - INFO - GraderClient : 74 - <------ connected to socket and requested lab instructions ------>
+2019-11-12 11:31:01,486 - v1.2 - DEBUG - GraderClient : 79 - <-------- data received from host: ; it must be instructions!! -------->
+2019-11-12 11:31:01,487 - v1.2 - DEBUG - GraderClient : 95 - <-------- no data received from host: 52.39.8.107 -------->
+2019-11-12 11:31:01,487 - v1.2 - DEBUG - GraderClient : 102 - I encountered an unexpected error: ([Errno 9] Bad file descriptor)

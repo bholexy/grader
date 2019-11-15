@@ -1,0 +1,12 @@
+2019-11-12 13:38:05,937 - v1.2 - DEBUG - GraderClient : 79 - <-------- data received from host: ; it must be instructions!! -------->
+2019-11-12 13:38:05,938 - v1.2 - DEBUG - GraderClient : 95 - <-------- no data received from host: dev.chatscrum.com -------->
+2019-11-12 13:38:05,938 - v1.2 - DEBUG - GraderClient : 102 - I encountered an unexpected error: ([Errno 9] Bad file descriptor)
+2019-11-12 13:44:51,134 - v1.2 - INFO - GraderClient : 113 - Found home directory for the user (sysadmin)
+2019-11-12 13:44:51,160 - v1.2 - INFO - GraderClient : 116 - All current instances of user logged off
+2019-11-12 13:44:51,160 - v1.2 - INFO - GraderClient : 69 - <------> connecting to server socket <------->
+2019-11-12 13:44:51,160 - v1.2 - INFO - GraderClient : 70 - dev.chatscrum.com
+2019-11-12 13:44:51,160 - v1.2 - INFO - GraderClient : 71 - 58500
+2019-11-12 13:44:51,177 - v1.2 - INFO - GraderClient : 74 - <------ connected to socket and requested lab instructions ------>
+2019-11-12 13:48:47,660 - v1.2 - DEBUG - GraderClient : 79 - <-------- data received from host: ; it must be instructions!! -------->
+2019-11-12 13:48:47,660 - v1.2 - DEBUG - GraderClient : 95 - <-------- no data received from host: dev.chatscrum.com -------->
+2019-11-12 13:48:47,660 - v1.2 - DEBUG - GraderClient : 102 - I encountered an unexpected error: ([Errno 9] Bad file descriptor)
